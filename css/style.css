@@ -29,6 +29,7 @@
     font-size: 16px;
     font-weight: 900;
     text-align: left;
+    line-height: 1.5;
     color: #edf2c5;
     text-decoration: none;
 }
@@ -57,9 +58,23 @@
 /* footer */
 
 .text-style-5 {
+    font-family: Arial;
     font-size: 12px;
-    text-align: center;
+    font-weight: normal;
+    text-align: left;
     color: #edf2c5;
+}
+
+
+/* nav */
+
+.text-style-6 {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 0.25;
+    color: #edf2c5;
+    text-decoration: none;
 }
 
 
@@ -102,12 +117,28 @@
     border: solid 1px #778a50;
 }
 
+.login:hover {
+    background-color: #778a50;
+}
+
+.login:hover>.text-login {
+    color: #edf2c5;
+}
+
 .join {
     width: 36px;
     height: 15px;
     padding: 5px 7px;
     border-radius: 3px;
     border: solid 1px #778a50;
+}
+
+.join:hover {
+    background-color: #778a50;
+}
+
+.join:hover>.text-join {
+    color: #edf2c5;
 }
 
 
@@ -152,22 +183,17 @@
 }
 
 .others-vegetables {
-    width: 50%;
+    width: 445px;
     margin-bottom: 35px;
 }
 
 .others-vegetables-title {
-    width: 445px;
-    height: 45px;
+    width: 99px;
+    height: 23px;
     border-radius: 3px;
     margin-bottom: 15px;
-    padding: 15px auto 15px 30px;
+    padding: 10px 316px 12px 30px;
     background-color: #778a50;
-}
-
-.others-vegetables-title-text {
-    width: 98px;
-    height: 23px;
 }
 
 .others-vegetables-images {
@@ -177,29 +203,39 @@
 }
 
 .others-contact {
-    width: 50%;
+    width: 445px;
     margin-bottom: 35px;
 }
 
 .others-contact-title {
-    width: 445px;
-    height: 45px;
+    width: 70px;
+    height: 23px;
     border-radius: 3px;
+    padding: 10px 345px 12px 30px;
     margin-bottom: 15px;
     background-color: #778a50;
 }
 
 .others-contact-description {
-    width: 445px;
-    height: 140px;
+    width: 415px;
+    height: 108px;
+    padding: 16px 15px;
     background-color: #f7fbda;
+}
+
+.contact-text {
+    line-height: 1;
 }
 
 .others-contact-description-divide {
     width: 414px;
     height: 1px;
-    margin: 15px 0;
+    margin: 15.5px auto;
     background-color: #7d7d7d;
+}
+
+.contact-info {
+    line-height: 1.83;
 }
 
 
@@ -209,9 +245,9 @@
 /* --Footer area-- */
 
 .footer {
-    width: 1260px;
-    height: 60px;
-    padding: 24px auto 25px;
+    width: 302px;
+    height: 11px;
+    padding: 24px 479px 25px;
     margin: 0 auto;
     background-color: #778a50;
 }
